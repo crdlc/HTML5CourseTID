@@ -10,5 +10,7 @@ function loadView1() {
 }
 
 function loadView2() {
-  document.getElementById('notes-form-view').load();
+  document.getElementById('notes-form-view').load().then(function() {
+    MyTest.test();
+  });
 }
