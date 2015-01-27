@@ -17,8 +17,8 @@
   </head>
 
   <body role="application" class="theme-productivity">
-    <button type=button onclick="loadView1()">Load first view</button>
-    <button type=button onclick="loadView2()">Load second view</button>
+    <button type=button onclick="loadView1(); MyTest.test()">Load first view</button>
+    <button type=button onclick="loadView2(); MyTest.test()">Load second view</button>
 
     <!-- This is a distributed view to be loaded dynamically on demand -->
     <section is="d-view" id="notes-list-view" role="region">
