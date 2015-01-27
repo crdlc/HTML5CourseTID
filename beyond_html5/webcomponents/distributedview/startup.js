@@ -5,6 +5,7 @@ function loadView1() {
   view.load().then(function() {
     view.querySelector('[data-type="list"] header').textContent =
                                                           'This is my list!';
+    MyTest.test();
   });
 }
 
